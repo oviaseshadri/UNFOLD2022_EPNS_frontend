@@ -15,6 +15,8 @@ const Notifications = () => {
     const  getResults = async () => {
         // define the variables required to make a request
         const walletAddress = "0xAf1aa06FaBD863CFfe9D1DFcD2353C295a6484F5";
+        // const walletAddress = "0x4B789263E1032c4C930B47cCbe72e810006531E3";
+        
         // const walletAddress = currentAccount;
         const pageNumber = 1;
         const itemsPerPage = 20;
